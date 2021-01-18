@@ -18,14 +18,6 @@ Recommended hardware features for the nodes in the test-net:
 
 * **Operating System**: Ubuntu 16.04, Ubuntu 18.04, Centos7, always 64 bits
 
-It is necessary to enable the following network ports in the machine in which we are going to deploy the node:
-
-* **4040**: TCP - Port for communication for Orion.
-
-* **60606**: TCP/UDP - Port to establish communication p2p between nodes.
-
-* **4545**: TCP - Port to establish RPC communication. (this port is used for applications that communicate with LACChain and may be leaked to the Internet)
-
 ## Pre-requisites
 
 ### Install Ansible ###
